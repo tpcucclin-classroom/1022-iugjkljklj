@@ -1,0 +1,10 @@
+Dim a As Long
+Dim b As Long
+For x = 1 To 1000
+if x Mod 2 = 0 Then
+  a = a + x
+Else
+  b = b + x
+End if
+Next x
+MsgBox"偶數總和 : "& a &"奇數總和 : " & b
